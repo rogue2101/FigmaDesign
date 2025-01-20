@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main-div">
+      <!-- sidebar starts -->
+
+      <div class="sidebar">
+        <div class="header-content">
+          <div class="logo-container">
+            <img
+              class="logo-image"
+              src="./assets/neptune-logo.png"
+              alt="logo image"
+            />
+            <img
+              class="sidebar-arrow"
+              src="./assets/left-arrow-svgrepo-com.svg"
+              alt=""
+            />
+          </div>
+          <div class="drop-down-box">
+            <img
+              id="drop-down-logo"
+              src="./assets/dropdown-image.png"
+              alt="profile image"
+            />
+            <div class="profile-detail">
+              <h4>Jessica Thompson</h4>
+              <p>Primary User</p>
+            </div>
+            <img
+              id="drop-down-arrow"
+              src="./assets/Icon Right.svg"
+              alt="arrow"
+            />
+          </div>
+          <div class="menu">
+            <div class="menu-list">
+              <img src="./assets/home 1.svg" alt="Home image" />
+              <a href="#">Home</a>
+            </div>
+            <div id="shaded" class="menu-list">
+              <img src="./assets/file-text 1.svg" alt="Document image" />
+              <a href="#">Documents</a>
+            </div>
+            <div class="menu-list">
+              <img src="./assets/message-circle 1.svg" alt="Chat image" />
+              <a href="#">Chat with Neptune</a>
+            </div>
+            <div class="menu-list">
+              <img src="./assets/help-circle 1.svg" alt="Help image" />
+              <a href="#">Help</a>
+            </div>
+            <div class="menu-list">
+              <img src="./assets/settings 1.svg" alt="Setting image" />
+              <a href="#">Setting</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-us-footer">
+          <img src="./assets/phone 1.svg" alt="Phone icon" />
+          <div>
+            <h1>Having Trouble?</h1>
+            <p>
+              Feel free to contact us and we will always help you through the
+              process.
+            </p>
+          </div>
+          <button>Contact Us</button>
+        </div>
+      </div>
+
+      <!-- sidebar ends -->
+
+      <!-- content space start -->
+      <div class="content-space">
+        <div class="head-section">
+          <img
+            class="hamburger"
+            src="./assets/burger-menu-left-svgrepo-com.svg"
+            alt=""
+          />
+          <p id="home">Home</p>
+          <img src="./assets/chevron-right.svg" alt=".." />
+          <p id="doc">Documents</p>
+        </div>
+        <div class="title-head">
+          <h1>My Documents</h1>
+          <div class="search-tab">
+            <input type="text" placeholder="Search document" />
+            <div>
+              <img src="./assets/Layer_1.svg" alt=".." />
+            </div>
+          </div>
+        </div>
+        <div class="data-table">
+          <table>
+            <!-- table heading start -->
+            <tr>
+              <th>
+                <div class="checkbox-dropdown">
+                  <input type="checkbox" />
+                  <img src="./assets/Icon Right.svg" alt="downbuttons" />
+                </div>
+              </th>
+              <th><h4>Document Name</h4></th>
+              <th><h4>Status</h4></th>
+              <th><h4>Last Modified</h4></th>
+              <th>
+                <div><button class="add-button">Add Item</button></div>
+              </th>
+            </tr>
+            <!-- table heading end -->
+
+            <!-- first row start -->
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td>
+                <p class="document-title">Title of document goes here</p>
+              </td>
+              <td><p class="signin">Needs Signin</p></td>
+              <td>
+                <p>
+                  <time class="modified-date" datetime="2024-12-10 14:01"
+                    >10-12-2014
+                    <p class="modified-time">02:01 pm</p></time
+                  >
+                </p>
+              </td>
+              <td>
+                <button>Sign Now</button>
+              </td>
+              <td>
+                <div class="dot-image-container">
+                  <img
+                    class="button-dot"
+                    src="./assets/more_vert_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 2.svg"
+                    alt="..."
+                  />
+                  <ul class="dot-menu">
+                    <li>Delete</li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+            <!-- first row end -->
+
+            <!-- second row start -->
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td>
+                <p class="document-title">Title of document goes here</p>
+              </td>
+              <td>
+                <p class="pending">Pending</p>
+                <div class="status-info">
+                  <p class="waiting">
+                    Waiting for
+                    <span class="waiting-highlighted">1 person</span>
+                  </p>
+                </div>
+              </td>
+              <td>
+                <p>
+                  <time class="modified-date" datetime="2024-12-10 14:01"
+                    >10-12-2014
+                    <p class="modified-time">02:01 pm</p></time
+                  >
+                </p>
+              </td>
+              <td>
+                <button>Preview</button>
+              </td>
+              <td>
+                <div class="dot-image-container">
+                  <img
+                    class="button-dot"
+                    src="./assets/more_vert_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 2.svg"
+                    alt="..."
+                  />
+                </div>
+              </td>
+            </tr>
+            <!-- second row end -->
+
+            <!-- third row start -->
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td>
+                <p class="document-title">Title of document goes here</p>
+              </td>
+              <td>
+                <p class="pending">Pending</p>
+                <div class="status-info">
+                  <p class="waiting">
+                    Waiting for
+                    <span class="waiting-highlighted">2 people</span>
+                  </p>
+                </div>
+              </td>
+              <td>
+                <p>
+                  <time class="modified-date" datetime="2024-12-10 14:01"
+                    >10-12-2014
+                    <p class="modified-time">02:01 pm</p></time
+                  >
+                </p>
+              </td>
+              <td>
+                <button>Preview</button>
+              </td>
+              <td>
+                <div class="dot-image-container">
+                  <img
+                    class="button-dot"
+                    src="./assets/more_vert_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 2.svg"
+                    alt="..."
+                  />
+                </div>
+              </td>
+            </tr>
+            <!-- third row end -->
+
+            <!-- fourth row start -->
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td>
+                <p class="document-title">Title of document goes here</p>
+              </td>
+              <td><p class="completed">Completed</p></td>
+              <td>
+                <p>
+                  <time class="modified-date" datetime="2024-12-10 14:01"
+                    >10-12-2014
+                    <p class="modified-time">02:01 pm</p></time
+                  >
+                </p>
+              </td>
+              <td>
+                <button>Download PDF</button>
+              </td>
+              <td>
+                <div class="dot-image-container">
+                  <img
+                    class="button-dot"
+                    src="./assets/more_vert_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 2.svg"
+                    alt="..."
+                  />
+                </div>
+              </td>
+            </tr>
+            <!-- fourth row end -->
+
+            <!-- fifth row start -->
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td>
+                <p class="document-title">Title of document goes here</p>
+              </td>
+              <td><p class="completed">Completed</p></td>
+              <td>
+                <p>
+                  <time class="modified-date" datetime="2024-12-10 14:01"
+                    >10-12-2014
+                    <p class="modified-time">02:01 pm</p></time
+                  >
+                </p>
+              </td>
+              <td>
+                <button>Download PDF</button>
+              </td>
+              <td>
+                <div class="dot-image-container">
+                  <img
+                    class="button-dot"
+                    src="./assets/more_vert_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 2.svg"
+                    alt="..."
+                  />
+                </div>
+              </td>
+            </tr>
+            <!-- fifth row end -->
+
+            <!-- sixth row start -->
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td>
+                <p class="document-title">Title of document goes here</p>
+              </td>
+              <td><p class="completed">Completed</p></td>
+              <td>
+                <p>
+                  <time class="modified-date" datetime="2024-12-10 14:01"
+                    >10-12-2014
+                    <p class="modified-time">02:01 pm</p></time
+                  >
+                </p>
+              </td>
+              <td>
+                <button>Download PDF</button>
+              </td>
+              <td>
+                <div class="dot-image-container">
+                  <img
+                    class="button-dot"
+                    src="./assets/more_vert_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 2.svg"
+                    alt="..."
+                  />
+                </div>
+              </td>
+            </tr>
+            <!-- sixth row end -->
+          </table>
+        </div>
+      </div>
+      <div id="app"></div>
+      <!-- content end -->
+      <script src="./source.js"></script>
+    </div>
+  </body>
+</html>
